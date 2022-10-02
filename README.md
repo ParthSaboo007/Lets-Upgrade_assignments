@@ -24,9 +24,9 @@ int main() {
     std::unordered_map<int, std::string> mp;
   
     // inserting elements in random order
-    mp.emplace_hint(mp.begin(),3,"three");
-    mp.emplace_hint(mp.begin(),1,"one");
-    mp.emplace_hint(mp.begin(),2,"two");
+    mp.emplace_hint(mp.begin(), 3, "three");
+    mp.emplace_hint(mp.begin(), 1, "one");
+    mp.emplace_hint(mp.begin(), 2, "two");
 
         
     // printing the map elements 
@@ -41,4 +41,4 @@ int main() {
     return 1;
 }
 ```
-**[Run Code](https://rextester.com/WGP12917)**
+**[Run Code](https://rextester.com/AULM68896)**
